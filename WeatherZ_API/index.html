@@ -1,0 +1,20 @@
+<html ng-app="app.weather">
+    <head>
+        <title>My First Angular App!</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="angular.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="weather/WeatherService.js"></script>
+        <script type="text/javascript" src="weather/Controllers/WeatherController.js"></script>
+        <script type="text/javascript" src="Weather/Directives/weatherDirective.js"></script>
+        <script type="text/javascript" src="Weather/Directives/selectCityDirective.js"></script>
+        <script type="text/javascript" src="Weather/Directives/addCityDirective.js"></script>
+    </head>
+    <body>
+        <p>Weather app :</p>
+        <p ng-bind="description"></p>
+        <div selectcity></div>
+        <div weather></div>
+        <div addcity></div>
+    </body>
+</html>
